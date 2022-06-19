@@ -10,7 +10,7 @@ snake_pos = [100, 50]
 snake_body = [[100, 50], [100-10, 50], [100-(2*10), 50]]
 
 pygame.mixer.init()
-eating = pygame.mixer.Sound('eatsong.wav')
+eating = pygame.mixer.Sound('resources/audio/eatsong.wav')
 
 size_x = 720
 size_y = 480
